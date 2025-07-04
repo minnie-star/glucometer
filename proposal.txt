@@ -1,0 +1,70 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+Blood Glucose Meter (Glucometer)
+
+2. What real-world problem will your program address or help to solve?
+
+A glucometer will help and solve data storage for diabetic pantients allowing them
+to store blood glucose data for up to 3 months to review and inspect their blood glucose in various ways
+including getting average units, lowest units, highest units, trends overtime, patterns,
+arlerts setups, creats graphs for visual feedbacks.   
+
+3. What will you learn from developing this program?
+
+I will learn how to store data in a csv file, write and test functions,
+graphical user interface,
+ 
+4. What Python modules will your program use?
+
+I will use csv file, datetime, pytest, math, matplotlib and functools
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+5. List the names of functions you will need?
+
+read_glucose_data(file_path)
+write_glucose_data(file_path, glucose_data)
+calculate_average_glucose(data)
+find_min_glucose(data)
+find_max_glucose(data)
+generates_average_trends_analysis(data, time_period)
+creates_glucose_graph(data, start_date, end_date)
+set_arlerts(data, threshold_low, threshold_high)
+detects_patterns(data)
+main_menu()
+
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+6. List the names of the test functions you will write.
+
+test_read_glucose_data(file_path)
+test_write_glucose_data(file_path, glucose_data)
+test_calculate_average_glucose(data)
+test_find_min_glucose(data)
+test_find_max_glucose(data)
+test_generates_average_trends_analysis(data, time_period)
+test_creates_glucose_graph(data, start_date, end_date)
+test_set_arlerts(data, threshold_low, threshold_high)
+test_detects_patterns(data)
